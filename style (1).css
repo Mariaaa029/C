@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap');
+
+body {
+    background-color: orange;
+    color: rgb(252, 235, 206);
+    font-family: 'Sour Gummy', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Sour Gummy', sans-serif;
+    font-size: 36px;
+    color: brown;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px white;
+    border: 3px solid brown;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+.chamada-texto h1,
+.chamada-texto p {
+    margin: 15px 0;
+    font-family: 'Sour Gummy', sans-serif;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.video {
+    flex: 0 0 calc(50% - 20px);
+    height: 315px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f1dab7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    background-color: #a07145;
+}
+
+
+.categoria-video a {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.categoria-video {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    margin: 0 auto;
+    scrollbar-width: thin;
+}
+
+.categoria-video::-webkit-scrollbar {
+    height: 8px;
+}
+
+.categoria-video::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.categoria-video::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.categoria-video::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.categoria-videos img{
+    height: 200px;
+    opacity: 0.5;
+}
+.categoria-videos img:hover {
+    border: 5px solid rgb(253, 187, 44);
+    opacity: 1.0;
+}
+<img src="e296e547-b58e-403f-af8d-2d32141b8bc7.jpg" alt="Trabalho dos Alunos" style="width: 300px; height: auto; border-radius: 15px; border: 2px solid #000;">
