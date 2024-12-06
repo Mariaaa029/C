@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap');
 
 body {
-    background-color: orange;
+    background-color: pink;
     color: rgb(252, 235, 206);
     font-family: 'Sour Gummy', sans-serif;
     margin: 0;
@@ -11,12 +11,12 @@ body {
 header {
     font-family: 'Sour Gummy', sans-serif;
     font-size: 36px;
-    color: brown;
+    color: gray;
     text-align: center;
     margin: 20px 0;
     font-weight: bold;
     text-shadow: 2px 2px 4px white;
-    border: 3px solid brown;
+    border: 3px solid rebeccapurple;
     padding: 10px;
     border-radius: 10px;
 }
